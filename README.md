@@ -1,6 +1,9 @@
 # NASA-Asteroids-DataVisualization
 <h3>Introduction</h3>
 This is a project of my TA course named Introduction to Computing.<br>
+Python is the main programming language we use.
+OOD is used throughout the project development.
+
 <h3>Features</h3>
 1.Python script that consumes a NASA Asteroid API given a start and end date.<br> 
 2.Output retrieved NASA asteroids to a Python UI screen in grid view format.<br>
