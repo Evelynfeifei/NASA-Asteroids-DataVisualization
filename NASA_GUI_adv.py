@@ -106,7 +106,7 @@ def ManipulateDate():
 	enddate = textbox_eDate.get()
 	validate(enddate)
 	
-	url = ("https://api.nasa.gov/neo/rest/v1/feed?start_date="+startdate+"&end_date="+enddate+"&api_key=gx1daXuj2m8vbtrVKtHALsIVu8U2yvBOWcbyjch8")
+	url = ("https://api.nasa.gov/neo/rest/v1/feed?start_date="+startdate+"&end_date="+enddate+"&api_key=YOUR-API-KEY")
 	response = requests.get(url)
 	json_data = response.json()
 	
